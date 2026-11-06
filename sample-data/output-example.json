@@ -1,0 +1,67 @@
+{
+  "_note": "Made-up sample output for the two emails in input-example.json. It shows the intended shape. Your own results will vary slightly because a language model does the sorting and extraction.",
+  "results": [
+    {
+      "input_id": "SAMPLE_MESSAGE_ID_0001",
+      "category": "New Client Enquiry",
+      "gmail_label_applied": "your new enquiry label",
+      "extractor_output": {
+        "name": "Chinedu",
+        "email": "chinedu@example.com",
+        "phone": "08012340000",
+        "project_type": "living room and kitchen redesign",
+        "budget_min": 6000000,
+        "budget_max": 6000000,
+        "location": "Lekki Phase 1",
+        "timeline": "start in January"
+      },
+      "sheet_row": {
+        "name": "Chinedu",
+        "email": "chinedu@example.com",
+        "phone": "08012340000",
+        "project_type": "living room and kitchen redesign",
+        "budget_min": 6000000,
+        "budget_max": 6000000,
+        "location": "Lekki Phase 1",
+        "timeline": "start in January",
+        "received_at": "2026-11-02T09:15:00.000Z",
+        "subject": "Interior work for a flat in Lekki",
+        "lead_status": "Ready to Go",
+        "follow_up_reason": "All required details provided"
+      }
+    },
+    {
+      "input_id": "SAMPLE_MESSAGE_ID_0002",
+      "category": "New Client Enquiry",
+      "gmail_label_applied": "your new enquiry label",
+      "extractor_output": {
+        "name": "Amaka Obi",
+        "email": "amaka@example.com",
+        "project_type": "3 bed flat interior design",
+        "location": "Lekki Phase 1"
+      },
+      "sheet_row": {
+        "name": "Amaka Obi",
+        "email": "amaka@example.com",
+        "phone": "",
+        "project_type": "3 bed flat interior design",
+        "budget_min": null,
+        "budget_max": null,
+        "location": "Lekki Phase 1",
+        "timeline": "",
+        "received_at": "2026-11-02T10:40:00.000Z",
+        "subject": "Design rates",
+        "lead_status": "Follow-up Call Needed",
+        "follow_up_reason": "Budget missing; Timeline missing"
+      }
+    }
+  ],
+  "example_labels_for_other_categories": {
+    "client update about tile delay on their site": "Existing Client",
+    "CV for a junior designer role": "Job Application",
+    "guaranteed page one search ranking for a monthly fee": "Spam",
+    "marble importer asking to send a catalogue": "Needs Review",
+    "invitation to a design expo": "Needs Review",
+    "lost cat notice from a neighbour": "Other"
+  }
+}

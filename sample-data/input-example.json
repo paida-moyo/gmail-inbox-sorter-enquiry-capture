@@ -1,0 +1,48 @@
+[
+  {
+    "_note": "Made-up sample. Shape follows the Gmail Trigger output with Simplify off. Long raw headers are shortened to the ones the workflow reads.",
+    "id": "SAMPLE_MESSAGE_ID_0001",
+    "threadId": "SAMPLE_THREAD_ID_0001",
+    "labelIds": ["UNREAD", "CATEGORY_PERSONAL", "INBOX"],
+    "headers": {
+      "from": "From: Chinedu Okoro <chinedu@example.com>",
+      "subject": "Subject: Interior work for a flat in Lekki",
+      "to": "To: Studio Inbox <studio@example.com>"
+    },
+    "text": "Hi, we bought a 3 bedroom flat in Lekki Phase 1 and want the living room and kitchen redone. Budget is about six million naira and we would like to start in January. Chinedu 08012340000 chinedu@example.com\n",
+    "subject": "Interior work for a flat in Lekki",
+    "date": "2026-11-02T09:15:00.000Z",
+    "from": {
+      "value": [{ "address": "chinedu@example.com", "name": "Chinedu Okoro" }],
+      "text": "\"Chinedu Okoro\" <chinedu@example.com>"
+    },
+    "to": {
+      "value": [{ "address": "studio@example.com", "name": "Studio Inbox" }],
+      "text": "\"Studio Inbox\" <studio@example.com>"
+    },
+    "messageId": "<SAMPLE-0001@example.com>"
+  },
+  {
+    "_note": "Second made-up sample: a short enquiry with no budget, no phone and no timeline.",
+    "id": "SAMPLE_MESSAGE_ID_0002",
+    "threadId": "SAMPLE_THREAD_ID_0002",
+    "labelIds": ["UNREAD", "CATEGORY_PERSONAL", "INBOX"],
+    "headers": {
+      "from": "From: Amaka Obi <amaka@example.com>",
+      "subject": "Subject: Design rates",
+      "to": "To: Studio Inbox <studio@example.com>"
+    },
+    "text": "How much do you charge to design a 3 bed flat in Lekki Phase 1?\n",
+    "subject": "Design rates",
+    "date": "2026-11-02T10:40:00.000Z",
+    "from": {
+      "value": [{ "address": "amaka@example.com", "name": "Amaka Obi" }],
+      "text": "\"Amaka Obi\" <amaka@example.com>"
+    },
+    "to": {
+      "value": [{ "address": "studio@example.com", "name": "Studio Inbox" }],
+      "text": "\"Studio Inbox\" <studio@example.com>"
+    },
+    "messageId": "<SAMPLE-0002@example.com>"
+  }
+]
