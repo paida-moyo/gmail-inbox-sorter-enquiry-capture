@@ -2,9 +2,9 @@
 
 An n8n workflow that sorts every new email in a studio's Gmail inbox into one of six routes, labels it, and writes new client enquiries into a Google Sheet that a sales person can call from.
 
-I built this for a practice client brief (a Lagos interior design studio with one shared inbox). The brief and every test email are my own, so no real client data is in this repository.
+I built this for a practice client brief (an interior design studio with one shared inbox). The brief and every test email are my own, so no real client data is in this repository.
 
-![n8n canvas showing the full workflow](assets/workflow-canvas.png)
+![n8n canvas showing the full workflow](assets/workflow.png)
 
 ## What I built
 
